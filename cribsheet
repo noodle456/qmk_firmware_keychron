@@ -35,6 +35,11 @@ Use this instead of a password to log in
 
 - [Stage and commit all changes](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#stage-and-commit-all-changes)
 
+	git add <file-name OR folder-name>
+	git status
+	git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+
 As a shortcut, you can add all local changes to staging and commit them with one command:
  
 	git commit -a -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
@@ -51,4 +56,3 @@ For example, to push your local commits to the `main` branch of the `origin` rem
     
     
     git push origin main
-
