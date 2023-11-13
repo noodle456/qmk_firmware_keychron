@@ -4,6 +4,12 @@ After cloning the keychron repo
 
 And installing QMK as per https://docs.qmk.fm/#/newbs_getting_started
 
+    python3 -m pip install --user qmk
+
+    qmk setup
+
+To get repo:
+
 	qmk setup -b bluetooth_playground noodle456/qmk_firmware_keychron
 
 Or just (better)
@@ -20,7 +26,7 @@ https://github.com/noodle456/qmk_firmware_keychron/tree/bluetooth_playground/key
 
 Where default is the name of the keymap
 
-And to flash - turn keyboard off then plug in USB and switch to cable while holding esc down (to put in bootloader mode
+And to flash - turn keyboard off then plug in USB and switch to cable while holding esc down (to put in bootloader mode)
 
 	make keychron/k15_pro/ansi_encoder/rgb:default:flash
 
