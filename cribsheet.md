@@ -34,8 +34,7 @@ And to flash - turn keyboard off then plug in USB and switch to cable while hold
 Pushing changes back up from local:
 https://docs.qmk.fm/#/getting_started_github
 
-Need to log in use a 'personal access token' in - [Settings](https://github.com/settings/profile)/
-- [Developer Settings](https://github.com/settings/apps)]
+Need to log in use a 'personal access token' in - [Settings](https://github.com/settings/profile) - [Developer Settings](https://github.com/settings/apps)]
 
 Use this instead of a password to log in
 
